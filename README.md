@@ -7,3 +7,4 @@ Installing spice-vdagent using pacman/yay, xf86-video-qxl-git using yay.
 I didnt have much success running the spice-vdagent(d) as a service, either when it was listening to the socket or started manually. So the solution I found was to autostart it using i3. I did this by adding "exec spice-vdagent" to .config/i3/config. I also added a bindsym to enable resizing of the screen with a keybind. "bindsym $mod+Control+r exec "xrandr --output Virtual-1 --auto"".
 
 There are most certainly some better workarounds or solutions out there, but I thought I'd detail how I set it up.
+ 
