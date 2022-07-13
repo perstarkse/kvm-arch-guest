@@ -1,1 +1,1 @@
-# kvm-arch-guest
+This is a simple guide to setting up dynamic screen resolution for an arch vm using kvm, virtmanager, spice-guest-tools, using i3 as window manager. I had a hard time getting it to work decently and I thought I'd detail my current solution which I feel works fine. 
